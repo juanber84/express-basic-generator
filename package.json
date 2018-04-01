@@ -1,0 +1,21 @@
+{
+  "name": "express-basic-generator",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "jsonfile": "^4.0.0",
+    "modify-package-dependencies": "^1.0.0",
+    "mz": "^2.7.0",
+    "sao": "^0.22.15"
+  },
+  "bin": {
+    "express-basic-generator": "./index.js"
+  }
+}

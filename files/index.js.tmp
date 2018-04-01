@@ -1,0 +1,11 @@
+'use strict'
+
+const debug = require('debug')('habitat:root')
+
+debug('generate')
+const app = require('./app')
+const parameters = require('./parameters')
+
+app.listen(parameters.listenPort, '0.0.0.0', () => {
+  debug('listening', parameters.listenPort)
+})
